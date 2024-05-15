@@ -15,9 +15,11 @@
                     <p> Sale Date: {{ $comic->sale_date }} </p>
                     <p>Type: {{ $comic->type }} </p>
 
-
+                    <button class="btn btn-primary"><a href="/comics" class="text-decoration-none text-white py-3">See All</a>
+                    </button>
                 </div>
             </div>
         </div>
+
     </div>
 @endsection
