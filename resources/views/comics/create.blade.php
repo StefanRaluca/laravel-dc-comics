@@ -4,7 +4,7 @@
         <h1>Add a new comic</h1>
 
 
-        <form action="" method="post">
+        <form action="{{ route('comics.store') }}" method="post">
             @csrf
 
             <div class="mb-3">
@@ -17,7 +17,7 @@
             <div class="mb-3">
                 <label for="price" class="form-label">Price</label>
                 <input type="text" class="form-control" name="price" id="price" aria-describedby="priceHelper"
-                    placeholder="19.99" />
+                    placeholder="19.99 $" />
             </div>
 
 
