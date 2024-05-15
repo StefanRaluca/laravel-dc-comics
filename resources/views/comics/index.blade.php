@@ -4,6 +4,7 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center py-3">
             <h2>Comics</h2>
+            <a class="btn btn-primary" href="{{ route('comics.create') }}">Add a new comic</a>
         </div>
         <div class="table-responsive">
             <table class="table table-primary">
