@@ -22,8 +22,8 @@
 
 
             <div class="mb-3">
-                <label for="src" class="form-label">Thumb</label>
-                <input type="text" class="form-control" name="src" id="src" aria-describedby="srcHelper"
+                <label for="thumb" class="form-label">Thumb</label>
+                <input type="text" class="form-control" name="thumb" id="thumb" aria-describedby="thumbHelper"
                     placeholder="https://" />
 
             </div>
