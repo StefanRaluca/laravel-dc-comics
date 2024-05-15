@@ -34,8 +34,7 @@
                             <td>{{ $comic->sale_date }}</td>
                             <td>{{ $comic->type }}</td>
 
-                            <td>View/Edit/Delete</td>
-
+                            <td><a href="{{ route('comics.show', $comic) }}">View</a>/Edit/Delete</td>
                         </tr>
                     @empty
 
