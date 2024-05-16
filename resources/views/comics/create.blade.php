@@ -62,7 +62,7 @@
 
             <div class="mb-3">
                 <label for="description" class="form-label @error('description') is-invalid @enderror">Description</label>
-                <textarea class="form-control" name="description" id="description" rows="9">value="{{ old('description') }}"</textarea>
+                <textarea class="form-control" name="description" id="description" rows="9" value="{{ old('description') }}"></textarea>
                 @error('description')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
