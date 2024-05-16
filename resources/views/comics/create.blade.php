@@ -52,8 +52,8 @@
             <button type="submit" class="btn btn-primary">
                 Create
             </button>
-            <button class="btn btn-primary"><a href="/comics" class="text-decoration-none text-white py-3">Back</a>
-            </button>
+            {{--  <button class="btn btn-primary"><a href="/index" class="text-decoration-none text-white py-3">Back</a>
+            </button> --}}
 
 
 
